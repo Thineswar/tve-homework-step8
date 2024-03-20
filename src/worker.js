@@ -26,7 +26,7 @@ export default {
       <p>
         ${parsedJwt.payload.email} 
         authenticated at ${Date(parsedJwt.payload.iat)} 
-        from <a href="https://tunnel.thineswar.com/secure/${String.prototype.toLowerCase(parsedJwt.payload.country)}" >${parsedJwt.payload.country}</a>.
+        from <a href="https://tunnel.thineswar.com/secure/${parsedJwt.payload.country.toLowerCase()}" >${parsedJwt.payload.country}</a>.
       </p>
 		</body>
     <footer> <b> By Thineswar </b> </footer>
