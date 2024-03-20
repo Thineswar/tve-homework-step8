@@ -1,0 +1,4 @@
+name = "tve-homework-step8"
+main = "src/worker.js"
+compatibility_date = "2024-03-20"
+workers_dev = true
