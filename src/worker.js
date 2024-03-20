@@ -24,7 +24,9 @@ export default {
         <h1>Cloudflare TVE Technical Project</h1>
       </header>
       <p>
-        ${parsedJwt.payload.email} authenticated at ${Date(parsedJwt.payload.iat)} from ${parsedJwt.payload.country}.
+        ${parsedJwt.payload.email} 
+        authenticated at ${Date(parsedJwt.payload.iat)} 
+        from <a href="https://tunnel.thineswar.com/secure/${parsedJwt.payload.country}" >${parsedJwt.payload.country}</a>.
       </p>
 		</body>
     <footer> <b> By Thineswar </b> </footer>
